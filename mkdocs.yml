@@ -1,25 +1,61 @@
-site_name: Webstede.info - Learning by Doing
-site_url: https://annelieshofstede.github.io/webstede_info
+site_name: Learning in Public
+site_url: https://webstede.info
+site_description: Power BI notities van Annelies — Learning by Doing, Sharing by Showing
+site_author: Annelies Hofstede
+
 theme:
   name: material
   language: nl
+  font:
+    text: DM Sans
+    code: JetBrains Mono
+  icon:
+    logo: material/chart-bar
   palette:
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Donkere modus
     - scheme: slate
+      primary: custom
+      accent: yellow
       toggle:
         icon: material/brightness-4
         name: Lichte modus
+    - scheme: default
+      primary: custom
+      accent: yellow
+      toggle:
+        icon: material/brightness-7
+        name: Donkere modus
   features:
     - navigation.sections
     - navigation.top
+    - navigation.instant
     - search.highlight
+    - search.suggest
     - content.code.copy
+    - header.autohide
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - tags
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/annelieshofstede
+    - icon: fontawesome/brands/github
+      link: https://github.com/annelieshofstede
+
+copyright: Copyright &copy; 2026 Annelies Hofstede
+
 markdown_extensions:
   - admonition
   - pymdownx.superfences
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
   - attr_list
-copyright: Copyright &copy; 2026 Annelies Hofstede
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
