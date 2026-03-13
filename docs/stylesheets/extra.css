@@ -4,3 +4,12 @@
   --md-primary-fg-color--dark: #0d0d1a;
   --md-accent-fg-color: #F2C811;
 }
+
+/* Visited links in dark mode */
+[data-md-color-scheme="slate"] a:visited {
+  color: #c8a800;
+}
+
+[data-md-color-scheme="slate"] a {
+  color: #F2C811;
+}
