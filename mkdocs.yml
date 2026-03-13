@@ -7,7 +7,7 @@ theme:
   name: material
   language: en
   font:
-    text: DM Sans
+    text: Roboto
     code: JetBrains Mono
   icon:
     logo: material/chart-bar
