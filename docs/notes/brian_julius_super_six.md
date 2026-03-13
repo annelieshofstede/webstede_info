@@ -1,6 +1,14 @@
+---
+date: 2024-10-28
+tags:
+  - Star Schema
+  - Roche's Maxim
+  - Power Query
+  - DAX
+  - Time Intelligence
+  - IBCS
+---
 # Brian Julius' Super Six
-
-*October 28, 2024 · 135 words*
 
 Feeling overwhelmed by everything there is to learn about Power BI, 
 I came across Brian Julius in February 2024: Super Six topics to learn 
@@ -9,9 +17,7 @@ focus for the coming year will be on these six points. Thanks a lot,
 Brian, for supporting this focus and Jeroen for bringing this to me 
 in an GRL episode.
 
-[Brian Julius on LinkedIn - Super Six](#)
-
-## De zes onderwerpen
+## The Six
 
 - Super Six - (1) Star Schema
 - Super Six - (2) Learn and Apply Roche's Maxim

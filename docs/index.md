@@ -1,4 +1,4 @@
-# Learning by Doing, Sharing by Showing
+## Learning by Doing, Sharing by Showing
 
 Sharing practical insights and solutions from my work as a BI Professional 
 in healthcare.

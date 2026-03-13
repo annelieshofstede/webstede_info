@@ -41,6 +41,7 @@ plugins:
   - tags
 
 extra:
+  date_format: "%B %Y"
   generator: false
   social:
     - icon: fontawesome/brands/linkedin
