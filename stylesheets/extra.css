@@ -1,0 +1,39 @@
+:root {
+  --md-primary-fg-color: #0d1117;
+  --md-primary-fg-color--light: #161b22;
+  --md-primary-fg-color--dark: #010409;
+  --md-accent-fg-color: #58a6ff;
+}
+
+/* Visited links in dark mode */
+[data-md-color-scheme="slate"] a:visited {
+  color: #3d7fc4;
+}
+
+/* Sidebar sectietitels met // */
+.md-nav__title::before {
+  content: '// ';
+  color: var(--md-accent-fg-color);
+  opacity: 0.6;
+}
+
+/* Actieve link met pijltje */
+.md-nav__link--active::before {
+  content: '→ ';
+  color: var(--md-accent-fg-color);
+}
+
+/* ## voor h2 kopjes */
+article h2::before {
+  content: '## ';
+  color: var(--md-accent-fg-color);
+  opacity: 0.5;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Monospace headings */
+h1, h2, h3, h4 {
+  font-family: 'JetBrains Mono', monospace !important;
+}
